@@ -4,9 +4,9 @@ Copy metadata from one post to another
 
 ## Overview
 
-This plugin allows you to copy metadata from posts, pages and even custom posts types with a single click while selecting which fields you want to copy.
+This plugin allows you to copy metadata from posts, pages and even custom posts types with a single click and allows you to select which fields you want to copy.
 
-Has integration with Advanced Custom Fields for better results if you're using the plugin.
+Has integration with [Advanced Custom Fields](https://www.advancedcustomfields.com/) for better results if you're using that plugin (and you should, it's very good).
 
 ## Requirements
 
@@ -21,7 +21,11 @@ Once installed you will see a 'MetaCopy' entry on the left-side menu, click it a
 
 Then just head up to 'Posts', 'Pages' or your custom post type listing and hover the element you want to copy metadata from, then click the MetaCopy action and select which fields you want to copy and where you want them to be copied.
 
+You may also copy the contents of the post should you want to, just mark the checkbox right before the Copy metadata button and the contents will also be carried over.
+
 Profit!
+
+**Word of warning: This plugin effectively overwrites the metadata and/or contents of the target post, so please use it with care. I will not responsible for data loss or corruption derived from the use of this software, use at your own risk.**
 
 ## Licensing
 
