@@ -25,7 +25,7 @@ You may also copy the contents of the post should you want to, just mark the che
 
 Profit!
 
-**Word of warning: This plugin effectively overwrites the metadata and/or contents of the target post, so please use it with care. I will not responsible for data loss or corruption derived from the use of this software, use at your own risk.**
+**Word of warning: This plugin effectively overwrites the metadata and/or contents of the target post, so please use it with care. I will not responsible for data loss or corruption derived from the use of this software, use it at your own risk.**
 
 ## Licensing
 
