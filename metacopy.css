@@ -1,0 +1,61 @@
+.toggle-switch {
+
+	width: 52px;
+	height: 26px;
+	border: 1px solid #CCD0D4;
+	border-radius: 26px;
+	display: block;
+	background: #F5F5F5;
+	position: relative;
+	cursor: pointer;
+	/* transition */
+	-webkit-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.toggle-switch:focus {
+
+	box-shadow: 0 0 0 3px rgba(13, 153, 213, 0.25);
+}
+
+.toggle-switch .switch-handle {
+
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	border: 1px solid #CCD0D4;
+	background: #FFFFFF;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	/* transition */
+	-webkit-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.toggle-switch.is-on {
+
+	background: #0D99D5;
+	border-color: #007CBA;
+}
+
+.toggle-switch.is-on .switch-handle {
+
+	border-color: #007CBA;
+	left: 28px;
+}
+
+.form-table textarea {
+
+	width: 100%;
+}
+
+@media (min-width: 1024px) {
+
+	.form-table textarea {
+
+		width: 500px;
+	}
+}

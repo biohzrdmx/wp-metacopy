@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-08-19 16:20-0500\n"
+"PO-Revision-Date: 2021-08-19 16:30-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html\n"
+"X-Poedit-SearchPath-0: plugin.php\n"
+
+#: plugin.php:28 plugin.php:183 plugin.php:204 plugin.php:317
+msgid "Copy metadata"
+msgstr "Copiar metadatos"
+
+#: plugin.php:41
+msgid "Supported post types"
+msgstr "Tipos de contenido soportados"
+
+#: plugin.php:43
+msgid "The MetaCopy action will be shown for the following post types:"
+msgstr ""
+"La acción MetaCopy será mostrada para los siguientes tipos de contenido:"
+
+#: plugin.php:46
+msgid "Posts"
+msgstr "Entradas"
+
+#: plugin.php:47
+msgid "Pages"
+msgstr "Páginas"
+
+#: plugin.php:59
+msgid "Advanced Custom Fields integration"
+msgstr "Integración con Advanced Custom Fields"
+
+#: plugin.php:61
+msgid ""
+"MetaCopy can leverage the ACF functions to copy full fields instead of raw "
+"metadata fields."
+msgstr ""
+"MetaCopy puede utilizar las funciones de ACF para copiar campos completos en "
+"lugar de campos de metadatos en bruto."
+
+#: plugin.php:64
+msgid "Enable ACF integration"
+msgstr "Activar integración con ACF"
+
+#: plugin.php:73
+msgid "Settings"
+msgstr "Ajustes"
+
+#: plugin.php:91
+msgid "Settings Saved"
+msgstr "Ajustes guardados"
+
+#: plugin.php:101
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: plugin.php:118 plugin.php:159
+msgid "Error"
+msgstr "Error"
+
+#: plugin.php:129
+msgid "Starting, ACF integration enabled"
+msgstr "Iniciando, integración con ACF activada"
+
+#: plugin.php:130
+#, php-format
+msgid "Using Advanced Custom Fields plugin version %s"
+msgstr "Usando plugin Advanced Custom Fields  versión %s"
+
+#: plugin.php:133 plugin.php:144
+#, php-format
+msgid "Copying value from %s field..."
+msgstr "Copiando valor desde el campo %s..."
+
+#: plugin.php:136 plugin.php:147 plugin.php:159
+#, php-format
+msgid " > %s"
+msgstr " > %s"
+
+#: plugin.php:136 plugin.php:147 plugin.php:159 plugin.php:164
+msgid "Success"
+msgstr "Exitoso"
+
+#: plugin.php:136 plugin.php:147
+msgid "Duplicated value or Error"
+msgstr "Valor duplicado o Error"
+
+#: plugin.php:141
+msgid "Starting, ACF integration disabled"
+msgstr "Iniciando, integración con ACF desactivada"
+
+#: plugin.php:153
+msgid "Copying content..."
+msgstr "Copiando contenido."
+
+#: plugin.php:161
+msgid "Finished"
+msgstr "Finalizado"
+
+#: plugin.php:163
+msgid "The copy process has ended successfully"
+msgstr "El proceso de copia ha finalizado exitosamente"
+
+#: plugin.php:166
+msgid "An error has ocurred, please check the log for more details"
+msgstr "Ha ocurrido un error, por favor revise el registro para más detalles"
+
+#: plugin.php:169
+msgid "Nothing to copy!"
+msgstr "¡No hay nada que copiar!"
+
+#: plugin.php:170
+msgid "Error: No fields selected for copying, aborting"
+msgstr "Error: No se seleccionaron campos para copiar, abortando"
+
+#: plugin.php:173
+msgid "Source and destination items must be of the same type"
+msgstr "Los elementos de origen y destino deben ser del mismo tipo"
+
+#: plugin.php:174
+msgid "Error: Source and destination items are not of the same type, aborting"
+msgstr ""
+"Error: Los elementos de origen y destino no son del mismo tipo, abortando"
+
+#: plugin.php:177
+msgid "Invalid source or destination items"
+msgstr "Elementos de origen o destino no válidos"
+
+#: plugin.php:178
+msgid "Error: Can not find source or destination items, aborting"
+msgstr ""
+"Error: No se han encontrado los elementos de origen o destino, abortando"
+
+#: plugin.php:184
+#, php-format
+msgid "Source item is %s"
+msgstr "El elemento de origen es %s"
+
+#: plugin.php:185
+#, php-format
+msgid "Destination item is %s"
+msgstr "El elemento de destino es %s"
+
+#: plugin.php:186
+#, php-format
+msgid "Result %s"
+msgstr "Resultado %s"
+
+#: plugin.php:191
+msgid "Operation log"
+msgstr "Registro de operación"
+
+#: plugin.php:206
+msgid "Available fields"
+msgstr "Campos disponibles"
+
+#: plugin.php:213
+#, php-format
+msgid "Please select which fields will be copied from %s"
+msgstr "Por favor seleccione cuáles campos desea copiar desde %s"
+
+#: plugin.php:243 plugin.php:272
+msgid "There are no fields to copy"
+msgstr "No hay campos que copiar"
+
+#: plugin.php:278
+msgid "Destination entry"
+msgstr "Entrada de destino"
+
+#: plugin.php:279
+msgid "Please select which entry will receive the copied fields:"
+msgstr "Por favor seleccione cuál entrada recibirá los campos por copiar:"
+
+#: plugin.php:303
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+#: plugin.php:304
+msgid "Extra options for a more fine-grained copy"
+msgstr "Ajustes adicionales para una copia más específica"
+
+#: plugin.php:309
+msgid "Copy content"
+msgstr "Copiar contenido"
+
+#: plugin.php:328
+msgid "MetaCopy"
+msgstr "MetaCopy"
+
+#: plugin.php:420
+#, php-format
+msgid "#%d (no title)"
+msgstr "#%d (no title)"
+
+#~ msgid "Post cloned successfully"
+#~ msgstr "Elemento clonado con éxito"
+
+#~ msgid "Please wait while you are being be redirected or "
+#~ msgstr "Por favor espere mientras es redireccionado o "
+
+#~ msgid "click here to edit the clone."
+#~ msgstr "haga click aquí para editar el duplicado."
+
+#~ msgid "Clone"
+#~ msgstr "Clonar"
