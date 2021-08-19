@@ -19,7 +19,7 @@ Clone/download the repo and install the plugin by unziping the contents of the z
 
 Once installed you will see a 'MetaCopy' entry on the left-side menu, click it and you will see the options page. There you will be able to specify on which content the MetaCopy command will be available.
 
-Then just head up to 'Posts', 'Pages' or your custom post type listing and hover the element you want to clone, then click the MetaCopy action and wait until you're redirected to edit the contents of the duplicate.
+Then just head up to 'Posts', 'Pages' or your custom post type listing and hover the element you want to copy metadata from, then click the MetaCopy action and select which fields you want to copy and where you want them to be copied.
 
 Profit!
 
