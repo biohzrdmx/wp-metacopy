@@ -25,7 +25,7 @@
 
 			public static function actionAdminMenu() {
 				add_menu_page('MetaCopy', 'MetaCopy', 'manage_options', 'metacopy', 'MetaCopy::callbackAdminPage', 'dashicons-edit-page');
-				add_submenu_page(null, 'MetaCopy', __('Copy metadata'), 'manage_options', 'metacopy-copy', 'MetaCopy::callbackCopyPage');
+				add_submenu_page('', 'MetaCopy', __('Copy metadata'), 'manage_options', 'metacopy-copy', 'MetaCopy::callbackCopyPage');
 			}
 
 			public static function actionEnqueueScripts($hook) {
